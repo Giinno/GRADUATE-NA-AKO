@@ -1,0 +1,53 @@
+body{
+    background-color: #0275d8;
+    border: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px; /* Space from the top */
+  }
+  
+  .carousel-inner img {
+    margin-top: 25px;
+    width: 80%;
+    height: 350px;
+  }
+  
+  .carousel-item {
+    width: 100%;
+  }
+  
+  .card {
+    margin-top: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Additional styles to move carousel left and add top space */
+  .col-md-6:first-child {
+    margin-right: -5px; /* Move carousel to the left */
+  }
+  
+  @media (min-width: 40%) {
+    .carousel-item img {
+      width: auto;
+      height: 200px; /* Adjust the height as needed */
+    }
+  }
+
+  .new-card {
+    border: none;
+    
+  }
+  .new-card .card-title {
+    font-weight: bold;
+  }
+  .new-card .card-text {
+    font-style: italic;
+  }
+
+  .card-body {
+    margin-left: 30px; /* Adjust the pixel value for desired leftward movement */
+  }
